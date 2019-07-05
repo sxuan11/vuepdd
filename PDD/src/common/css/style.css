@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?t6u6wv');
+  src:  url('fonts/icomoon.eot?t6u6wv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?t6u6wv') format('truetype'),
+    url('fonts/icomoon.woff?t6u6wv') format('woff'),
+    url('fonts/icomoon.svg?t6u6wv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cascades:before {
+  content: "\e900";
+}
+.icon-comment:before {
+  content: "\e901";
+}
+.icon-deliver:before {
+  content: "\e902";
+}
+.icon-more:before {
+  content: "\e903";
+}
+.icon-pay:before {
+  content: "\e904";
+}
+.icon-qr_code:before {
+  content: "\e905";
+}
+.icon-refund:before {
+  content: "\e906";
+}
+.icon-send:before {
+  content: "\e907";
+}
+.icon-service:before {
+  content: "\e908";
+}
+.icon-paint-format:before {
+  content: "\e90c";
+}
+.icon-box-add:before {
+  content: "\e95e";
+}
+.icon-spinner5:before {
+  content: "\e97e";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
