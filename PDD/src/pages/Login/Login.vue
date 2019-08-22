@@ -19,7 +19,7 @@
           <!--手机验证码登录部分-->
           <div :class="{current : loginMode} " @click="dealLoginMode(true)">
             <section class="login-message">
-              <input type="tel" maxlength="11" placeholder="手机号" v-model="phone">
+              <input type="tel" maxlength="11" placeholder="手机号:13666666666" v-model="phone">
               <button
                 v-if="!countDown"
                 class="get-verification"
